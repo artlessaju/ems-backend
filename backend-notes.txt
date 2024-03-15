@@ -1,0 +1,32 @@
+                           ems backend notes   (node(express) + mongodb)
+
+
+1. create a folder for backend (ems-backend)
+2. create package.json - npm init -y
+3. create a database in mongodb and create a collection named as employees
+4.  install express for creating an application in backend
+            npm i express
+5. cors - CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.
+>The word CORS stands for “Cross-Origin Resource Sharing”. Cross-Origin Resource Sharing is an HTTP-header based mechanism implemented by the browser which allows a server or an API(Application Programming Interface) to indicate any origins (different in terms of protocol, hostname, or port) other than its origin from which the unknown origin gets permission to access and load resources.     
+
+npm i cors
+
+6. create index.js -- 
+7. import installed frameworks
+8. create application using express
+9.using cors to connect frontend port
+10.create a middleware for parsing json data
+11.define port number
+
+node+mongodb connection
+12. create a services folder, inside it create a db.js file
+13. mongoose (library) - it is used to coonect node and mongodb--npm i mongoose
+14. import mongoose
+15.connection string
+16. create a model
+
+17. create a file for implementing the logics - (logics.js)- inside the service folder
+18. Create routes 
+      inside the index.js file , define the routes
+       getAllEmployeesss - localhost:/8000/get-all-employees
+  
